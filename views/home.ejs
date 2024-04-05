@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TEBAN</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/estilos.css">
+	<style>
+		:root {
+			--fondo: #ffffff;
+		}
+		
+		body {
+			background: var(--fondo);
+			font-family: 'Open Sans', sans-serif;
+		}
+		
+		header {
+			padding: 15px 0;
+		}
+		
+		.logo {
+			width: 60px;
+		}
+		
+		header nav a {
+			color: #129bad;
+			text-decoration: none;
+			margin-right: 20px;
+		}
+		
+		header nav a:hover,
+		header nav a.active {
+			color: #483fc2;
+		}
+	</style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="/img/pan2.jpg" class="logo" style="border-radius: 50%;">
+        Bolillito
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="/home">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/boni">Inventario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="alarma">Repartidores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://hora.mx">Stock</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="salir">Cerrar Sesion</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<main>
+		<div class="amezquita">
+			<div class="contenedor">
+				<h3 class="titulo">Hola!</h3>
+				<p class="descripcion">
+					¿Por que elegir <strong>Bolillito</strong>? En Bolillito, nos dedicamos a deleitar paladares con la pasión que ponemos en cada uno de nuestros productos. Nuestra historia comenzó con el sueño de crear un lugar donde la tradición y la innovación se fusionaran para ofrecer experiencias culinarias únicas.
+
+          Desde nuestros modestos inicios, nos hemos comprometido a ofrecer productos de la más alta calidad, elaborados con ingredientes frescos y cuidadosamente seleccionados. Cada bolillo, pan dulce y delicia que sale de nuestros hornos lleva consigo el amor y la dedicación de nuestro talentoso equipo.
+
+				</p>
+			</div>
+		</div>
+		<section class="miembros">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Objetivo General</h2>
+                <p></p>
+                <p></p>
+                <p>Nos enorgullece decir que en Bolillito, no solo nos preocupamos por el sabor excepcional de nuestros productos, sino también por el impacto que tenemos en nuestra comunidad y en el medio ambiente. Nos esforzamos por ser responsables social y ambientalmente, apoyando causas locales y adoptando prácticas sostenibles en nuestra producción.
+
+Nuestro equipo está formado por personas apasionadas y comprometidas que comparten la visión de crear momentos especiales para nuestros clientes. Nos inspira la creatividad y nos impulsa la búsqueda constante de la excelencia en todo lo que hacemos.
+
+En Bolillito, cada día es una nueva oportunidad para sorprender y deleitar a nuestros clientes. Nos comprometemos a seguir innovando, creando y compartiendo la alegría de cada bocado con aquellos que nos eligen.</p>
+                <br><br>
+                <section class="miembros" style="margin-top: -40px;">
+                  <div class="contenedor">
+                      <h2 class="sobre-nosotros">Nuestros Productos</h2>
+                      <div class="cards">
+                          <div class="card">
+                              <img src="/img/pan1.jpg" width="400" height="300" style="margin-left: 40px;">
+                              <p></p>
+                              <strong>Pan Salado</strong>
+                          </div>
+                          <div class="card">
+                              <img src="/img/pan2.jpg" width="400" height="300" style="margin-left: 40px;">
+                              <p></p>
+                              <strong>Pan Integral</strong>
+                          </div>
+                          <div class="card">
+                              <img src="/img/pan3.jpg" width="400" height="300" style="margin-left: 40px;">
+                              <p></p>
+                              <strong>Pan dulce</strong>
+                          </div>
+                  </div>
+              </section>
+
+	
+        
+        <section class="miembros" style="margin-top: -50px;">
+            <div class="contenedor">
+                <h3 class="slogan">Quienes nos conforman?</h3>
+                <div class="card" style="margin-left: 320px;">
+            <img src="/img/diosdelsexo.jpg" width="230" height="150">
+                        <h2>Luis Cruz</h4>
+                        <p>Programmer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="miembros" style="margin-top: -150px;">
+            <div class="contenedor">
+                <h3 class="sobre-nosotros">Solución</h3>
+                <p>Nuestra solución no solo automatiza procesos y simplifica tareas administrativas, sino que también agrega valor al negocio al mejorar la experiencia del cliente y aumentar la eficiencia operativa. Al facilitar la gestión de inventarios, mejorar la precisión en las ventas y optimizar la producción, ayudamos a las panaderías a alcanzar nuevos niveles de rentabilidad y crecimiento.
+                    </p>
+                    <br>
+                    <br>
+                <div class="clientes">
+                    <div class="cliente">
+                        <img src="/img/pan5.jpg" height="300" >
+                    </div>
+                    <div class="cliente">
+                        <img src="/img/pan6.jpg" height="300" >
+                    </div>
+                    <div class="cliente">
+                        <img src="/img/pan7.jpg" height="300">
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor" >
+            <h2 class="titulo-footer">Contactanos</h2>
+            <h3 class="subtitulo-footer">Escribenos,danos tus opiniones,quejas o sugerencias :) , en bolillito tú eres nuestra prioridad!!</h3>
+            <div class="footer">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Nombre">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+</body>
+</html>
